@@ -1,0 +1,22 @@
+{
+  "storage":
+  {
+    "consul":
+    {
+      "address": "host.docker.internal:9500",
+      "advertise_addr": "http://host.docker.internal",
+      "path": "vault/",
+      "token": "fcc61768-adcd-39e2-c53a-d82c28009674"
+    }
+  },
+  "listener":
+  {
+    "tcp":
+    {
+      "address": "0.0.0.0:8200",
+      "tls_disable": 1
+    }
+  },
+  "ui" : true,
+  "log_level": "DEBUG"
+}
